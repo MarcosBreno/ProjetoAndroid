@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/texto_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuário:"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha:"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="entrarApp"
+        android:text="Entrar" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sairApp"
+        android:text="Sair" />
+</LinearLayout>
